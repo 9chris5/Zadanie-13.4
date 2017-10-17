@@ -5,7 +5,7 @@ function getOSinfo() {
 	if(type === 'Darwin') {
 	   type = 'OSX';
 	}
-    else if(type === 'Windows_NT') {
+	else if(type === 'Windows_NT') {
 		type = 'Windows';
 	}
 	var release = os.release();
