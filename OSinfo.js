@@ -3,7 +3,7 @@ var timer = require('./timer');
 function getOSinfo() {
 	var type = os.type();
 	if(type === 'Darwin') {
-	   type = 'OSX';
+		type = 'OSX';
 	}
 	else if(type === 'Windows_NT') {
 		type = 'Windows';
